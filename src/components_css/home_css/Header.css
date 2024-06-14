@@ -1,0 +1,51 @@
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    display: flex;
+    overflow: hidden;
+    justify-content: space-between;
+    /* border: 10px solid seagreen; */
+    background-color: rgb(20, 29, 116);
+    min-width: 850px;
+    min-height: 5vh;
+}
+
+#name-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* border: 2px red solid; */
+}
+
+#name {
+    /* border: 2px solid red; */
+    margin: 10px 20px 10px 40px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+#nav-bar {
+    display: flex;
+}
+
+#about, #resume, #projects, #contact {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 45px 20px 40px 20px;
+}
+
+#about:hover, #resume:hover, #projects:hover, #contact:hover {
+    background-color: rgb(205, 24, 211);
+}
+
+#about, #resume, #projects{
+    border-right: 2px white solid;
+}

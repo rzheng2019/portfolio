@@ -19,11 +19,11 @@ function App() {
     <div>
       <BrowserRouter>
         <Routes>
-          <Route index element={<Home />}></Route>
-          <Route path='/about' element={<About />}></Route>
-          <Route path='/contact' element={<Contact />}></Route>
-          <Route path='/resume' element={<Resume />}></Route>
-          <Route path='/projects' element={<Projects />}></Route>
+          <Route path='/portfolio' element={<Home />}></Route>
+          <Route path='/portfolio/about' element={<About />}></Route>
+          <Route path='/portfolio/contact' element={<Contact />}></Route>
+          <Route path='/portfolio/resume' element={<Resume />}></Route>
+          <Route path='/portfolio/projects' element={<Projects />}></Route>
         </ Routes>
       </ BrowserRouter>
     </div>

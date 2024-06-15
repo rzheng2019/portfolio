@@ -1,12 +1,90 @@
 #about-content {
     display: flex;
     justify-content: center;
-    /* border: 2px black solid; */
-    min-height: 80vh;
-    min-width: 850px;
+    border: 2px black solid;
+    min-height: 90vh;
     background-color: whitesmoke;
+    margin: 0 auto;
 }
 
-#about-content {
-    color: white;
+#about-block {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    max-width: 60%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    /* border: 5px cyan solid; */
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    background-color: rgb(245, 236, 236);
+    padding-bottom: 10%;
+}
+
+#about-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+    font-size: 100%;
+    /* border: 2px solid red; */
+}
+
+#about-middle-content {
+    display: flex;
+    flex-direction: column;
+}
+
+#about-info-block, 
+#about-hobbies-block {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 3%;
+}
+
+#about-tech-stack-title {
+    text-align: center;
+    font-size: 120%;
+    padding-bottom: 1%;
+}
+
+#about-tech-stack-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* border: 2px solid red; */
+    padding: 3%;
+    font-size: 120%;
+}
+
+#about-language-items {
+    padding-top: 3%;
+    list-style-type: none;
+    width: 40%;
+    font-size: 100%;
+}
+
+#about-tech-stack-title,
+#about-tech-stack-left-title,
+#about-tech-stack-right-title {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1200px) {
+    #about-block {
+        max-width: 90%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    #about-block {
+        max-width: 90%;
+    }
+    #about-tech-stack-left {
+        padding-bottom: 5%;
+    }
+    #about-tech-stack-block {
+        flex-direction: column;
+    }
 }

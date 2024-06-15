@@ -8,10 +8,9 @@
     display: flex;
     overflow: hidden;
     justify-content: space-between;
-    /* border: 10px solid seagreen; */
+    border: 10px solid seagreen;
     background-color: rgb(20, 29, 116);
-    min-width: 850px;
-    min-height: 5vh;
+    height: 100%;
 }
 
 #name-section {
@@ -23,11 +22,10 @@
 
 #name {
     /* border: 2px solid red; */
-    margin: 10px 20px 10px 40px;
     color: white;
     font-weight: bold;
     text-decoration: none;
-    font-size: 40px;
+    font-size: 3rem;
 }
 
 #nav-bar {
@@ -38,8 +36,7 @@
     text-align: center;
     color: white;
     text-decoration: none;
-    font-size: 25px;
-    padding: 45px 20px 40px 20px;
+    padding: 2rem 1.5rem 2rem 1.5rem;
 }
 
 #about:hover, #resume:hover, #projects:hover, #contact:hover {

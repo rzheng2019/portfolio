@@ -11,7 +11,9 @@ function HomeContent() {
                     <div id="photo-block">
                         <img id="profile-photo" src={profile_photo} alt="photo"></img>
                     </div>
-                    <div id="greeting-block">Hello!</div>
+                    <div id="greeting-block">
+                        <h1>Hello!</h1>
+                    </div>
                     <div id="description-block">
                         <div id="profile-description">
                             I'm a Software and Systems Engineer who has worked on sensor

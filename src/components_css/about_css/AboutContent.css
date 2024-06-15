@@ -1,0 +1,12 @@
+#about-content {
+    display: flex;
+    justify-content: center;
+    /* border: 2px black solid; */
+    min-height: 80vh;
+    min-width: 850px;
+    background-color: whitesmoke;
+}
+
+#about-content {
+    color: white;
+}

@@ -7,7 +7,7 @@ function AboutContent() {
         <div id="about-content">
             <div id="about-block">
                 <div id="about-title">
-                    <h1>About</h1>
+                    <h1>Biography</h1>
                 </div>
                 <div id="about-info-block">
                     <p>
@@ -16,7 +16,7 @@ function AboutContent() {
                         development. I graduated from Florida State University in 2019
                         with a Bachelors of Science in Computer Engineering but I always
                         had my goal set on working in the field of Software Engineering
-                        development. Currently, I am pursuing a Masters of Software 
+                        and Development. Currently, I am pursuing a Masters of Software 
                         Development at Boston University Metropolitan College.
                     </p>
                 </div>

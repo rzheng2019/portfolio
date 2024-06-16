@@ -1,0 +1,199 @@
+#resume-content {
+    display: flex;
+    justify-content: center;
+    border: 2px black solid;
+    min-height: 90vh;
+    background-color: whitesmoke;
+    margin: 0 auto;
+}
+
+#resume-block {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    text-align: center;
+    max-width: 60%;
+    min-width: 75%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    /* border: 5px cyan solid; */
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    background-color: rgb(245, 236, 236);
+    padding-bottom: 10%;
+    padding: 2%;
+}
+
+#resume-title {
+    /* border: 2px red solid; */
+    margin-bottom: 2%;
+}
+
+#resume-contact-info {
+    display: flex;
+    justify-content: center;
+}
+
+#resume-email,
+#resume-contact-divider,
+#resume-location,
+#resume-profile-link {
+    padding: 0 0.5%;
+}
+
+#resume-summary {
+    text-align: center;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+    /* border: 2px solid red; */
+}
+
+#resume-education-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+#resume-education-title {
+    text-align: left;
+    /* border: 2px blue solid; */
+}
+
+#resume-education-content-left,
+#resume-education-content-right {
+    list-style-type: none;
+}
+
+#resume-education-content-left {
+    text-align: left;
+    margin-top: 1%;
+}
+
+#resume-education-content-right {
+    text-align: right;
+}
+
+#school-names {
+    font-weight: bold;
+}
+
+#resume-experience {
+    display: flex;
+    flex-direction: column;
+}
+
+#resume-experience-title {
+    text-align: left;
+    margin-top: 2%;
+}
+
+#resume-experience-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#resume-job-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+#resume-job-content-left,
+#resume-job-content-right {
+    list-style-type: none;
+}
+
+#resume-job-content-left {
+    text-align: left;
+    margin-top: 1%;
+}
+
+#resume-job-content-right {
+    text-align: right;
+    margin-top: 0.5%;
+}
+
+#job-names {
+    font-weight: bold;
+}
+
+#job-description {
+    margin-left: 3%;
+    max-width: 90%;
+}
+
+#resume-project {
+    display: flex;
+    flex-direction: column;
+}
+
+#resume-project-title {
+    text-align: left;
+    margin-top: 2%;
+}
+
+#resume-project-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#resume-project-item-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+#resume-project-content-left {
+    list-style-type: none;
+    text-align: left;
+    margin-top: 1%;
+}
+
+#project-name {
+    font-weight: bold;
+}
+
+#project-description {
+    margin-left: 3%;
+    max-width: 90%;
+}
+
+#resume-skills {
+    display: flex;
+    flex-direction: column;
+}
+
+#resume-skills-title {
+    text-align: left;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+#resume-project-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#resume-skills-item-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#resume-skills-content-left {
+    display: flex;
+    list-style-type: none;
+    text-align: left;
+}
+
+#skill-name {
+    font-weight: bold;
+    margin-right: 1%;
+}
+
+@media screen and (max-width: 1200px) {
+    #resume-block {
+        max-width: 90%;
+    }
+}

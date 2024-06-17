@@ -44,7 +44,6 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 2%;
-    /* border: 2px solid red; */
 }
 
 #resume-education-content {
@@ -54,7 +53,6 @@
 
 #resume-education-title {
     text-align: left;
-    /* border: 2px blue solid; */
 }
 
 #resume-education-content-left,

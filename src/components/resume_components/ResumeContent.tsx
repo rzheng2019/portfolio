@@ -107,9 +107,9 @@ function ResumeContent() {
                     <div id="resume-project-content">
                         <div id="resume-project-item-content">
                             <ul id="resume-project-content-left">
-                                <li id="project-name">Dessert Recipes</li>
+                                <li id="resume-project-name">Dessert Recipes</li>
                                 <li>Native iOS Application, Swift, SwiftUI, XCTest</li>
-                                <ul id="project-description">
+                                <ul id="resume-project-description">
                                     <li>
                                         Decoded JavaScript Object Notation (JSON) data from public REST API endpoints and 
                                         displayed a list of dessert recipes with SwiftUI.
@@ -126,9 +126,9 @@ function ResumeContent() {
                         </div>
                         <div id="resume-project-item-content">
                             <ul id="resume-project-content-left">
-                                <li id="project-name">Event Diary</li>
+                                <li id="resume-project-name">Event Diary</li>
                                 <li>Native iOS Application, Swift, SwiftUI, Firebase, Firestore, Authentication</li>
-                                <ul id="project-description">
+                                <ul id="resume-project-description">
                                     <li>
                                         Created a SwiftUI diary application that efficiently recorded user’s daily event logs with MVVM.
                                     </li>

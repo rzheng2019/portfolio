@@ -6,13 +6,13 @@ function Header() {
     return (
         <div id="header">
             <div id="name-section">
-                <Link id="name" to="/portfolio/">Ricky Zheng</Link>
+                <Link id="name" to="/">Ricky Zheng</Link>
             </div>
             <div id="nav-bar">
-                <Link id="about" to="/portfolio/about">About</Link>
-                <Link id="resume" to="/portfolio/resume">Resume</Link>
-                <Link id="projects" to="/portfolio/projects">Projects</Link>
-                <Link id="contact" to="/portfolio/contact">Contact</Link>
+                <Link id="about" to="/about">About</Link>
+                <Link id="resume" to="/resume">Resume</Link>
+                <Link id="projects" to="/projects">Projects</Link>
+                <Link id="contact" to="/contact">Contact</Link>
             </div>
         </div>
     );

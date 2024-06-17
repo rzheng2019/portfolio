@@ -3,7 +3,7 @@ import './App.css';
 
 // Import react-router-dom
 import {
-  BrowserRouter,
+  HashRouter as Router,
   Routes,
   Route,
 } from "react-router-dom";
@@ -17,15 +17,15 @@ import Projects from "./pages/Projects";
 function App() {
   return (
     <div>
-      <BrowserRouter>
+      <Router basename='/portfolio'>
         <Routes>
-          <Route path='/portfolio' element={<Home />}></Route>
-          <Route path='/portfolio/about' element={<About />}></Route>
-          <Route path='/portfolio/contact' element={<Contact />}></Route>
-          <Route path='/portfolio/resume' element={<Resume />}></Route>
-          <Route path='/portfolio/projects' element={<Projects />}></Route>
+          <Route path='/' element={<Home />}></Route>
+          <Route path='/about' element={<About />}></Route>
+          <Route path='/contact' element={<Contact />}></Route>
+          <Route path='/resume' element={<Resume />}></Route>
+          <Route path='/projects' element={<Projects />}></Route>
         </ Routes>
-      </ BrowserRouter>
+      </ Router>
     </div>
   );
 }

@@ -7,7 +7,7 @@ function HomeContent() {
             <div id="content-block">
                 <div id="info-block">
                     <div id="photo-block">
-                        <img id="profile-photo" src={profile_photo}></img>
+                        <img id="profile-photo" src={profile_photo} alt=""></img>
                     </div>
                     <div id="greeting-block">
                         <h1>Hello!</h1>

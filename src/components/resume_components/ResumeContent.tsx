@@ -11,7 +11,7 @@ function ResumeContent() {
                         <p id="resume-contact-divider">|</p>
                         <p id="resume-location">Miami, FL</p>
                         <p id="resume-contact-divider">|</p>
-                        <a id="resume-profile-link" href="https://www.linkedin.com/in/ricky-zheng-profile/" target="_blank">
+                        <a id="resume-profile-link" href="https://www.linkedin.com/in/ricky-zheng-profile/" target="_blank" rel="noreferrer">
                             https://www.linkedin.com/in/ricky-zheng-profile/
                         </a>
                     </div>
@@ -102,7 +102,7 @@ function ResumeContent() {
                 <div id="resume-projects">
                     <div id="resume-project-title">
                         <h2>Projects</h2>
-                        <a href="https://github.com/rzheng2019?tab=repositories" target="_blank">Visit My GitHub Profile</a>
+                        <a href="https://github.com/rzheng2019?tab=repositories" target="_blank" rel="noreferrer">Visit My GitHub Profile</a>
                     </div>
                     <div id="resume-project-content">
                         <div id="resume-project-item-content">

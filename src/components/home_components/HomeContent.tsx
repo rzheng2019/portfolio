@@ -1,5 +1,3 @@
-import { useRef } from "react";
-
 import "../../components_css/home_css/HomeContent.css"
 import profile_photo from '../../photos/profile_photo.jpeg'
 
@@ -9,7 +7,7 @@ function HomeContent() {
             <div id="content-block">
                 <div id="info-block">
                     <div id="photo-block">
-                        <img id="profile-photo" src={profile_photo} alt="photo"></img>
+                        <img id="profile-photo" src={profile_photo}></img>
                     </div>
                     <div id="greeting-block">
                         <h1>Hello!</h1>

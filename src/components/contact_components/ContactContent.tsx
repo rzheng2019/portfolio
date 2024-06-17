@@ -98,11 +98,11 @@ function ContactContent() {
 
         setErrors(fieldErrors)
 
-        if (fieldErrors.firstName == "" 
-            && fieldErrors.lastName == ""
-            && fieldErrors.email == ""
-            && fieldErrors.subject == ""
-            && fieldErrors.description == "")
+        if (fieldErrors.firstName === "" 
+            && fieldErrors.lastName === ""
+            && fieldErrors.email === ""
+            && fieldErrors.subject === ""
+            && fieldErrors.description === "")
         {
             const submissionStatus = {status: true};
             setStatus(submissionStatus);

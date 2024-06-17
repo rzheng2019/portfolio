@@ -14,7 +14,7 @@ function ProjectsContent() {
                 </div>
                 <div id="projects-container">
                     <div id="projects-tiles">
-                        <a id="project-tile" href="https://github.com/rzheng2019/EventDiary" target="_blank">
+                        <a id="project-tile" href="https://github.com/rzheng2019/EventDiary" target="_blank" rel="noreferrer">
                             <div id="project-tile-content">
                                 <h2 id="event-diary-title">Event Diary</h2>
                                 <div id="project-image-container">
@@ -26,7 +26,7 @@ function ProjectsContent() {
                                 </p>
                             </div>
                         </a>
-                        <a id="project-tile" href="https://github.com/rzheng2019/HobbyTracker" target="_blank">
+                        <a id="project-tile" href="https://github.com/rzheng2019/HobbyTracker" target="_blank" rel="noreferrer">
                             <div id="project-tile-content">
                                 <h2 id="hobby-tracker-title">Hobby Tracker</h2>
                                 <div id="project-image-container">
@@ -38,7 +38,7 @@ function ProjectsContent() {
                                 </p>
                             </div>
                         </a>
-                        <a id="project-tile" href="https://github.com/rzheng2019/DessertRecipes" target="_blank">
+                        <a id="project-tile" href="https://github.com/rzheng2019/DessertRecipes" target="_blank" rel="noreferrer">
                             <div id="project-tile-content">
                                 <h2 id="dessert-recipes-title">Dessert Recipes</h2>
                                 <div id="project-image-container">
@@ -49,7 +49,7 @@ function ProjectsContent() {
                                 </p>                        
                             </div>
                         </a>
-                        <a id="project-tile" href="https://github.com/rzheng2019/YuGiOhDB" target="_blank">
+                        <a id="project-tile" href="https://github.com/rzheng2019/YuGiOhDB" target="_blank" rel="noreferrer">
                             <div id="project-tile-content">
                                 <h2 id="yugioh-title">YuGiOh DB</h2>
                                 <div id="project-image-container">

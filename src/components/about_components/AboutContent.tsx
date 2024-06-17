@@ -1,5 +1,3 @@
-import { useRef } from "react";
-
 import "../../components_css/about_css/AboutContent.css"
 
 function AboutContent() {
